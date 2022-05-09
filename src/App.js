@@ -6,6 +6,7 @@ import './App.css';
 import Calculator from './Calculator/Calculator';
 import Notes from './Notes/Notes';
 import Navbar from './Navbar/Navbar';
+import Game from './Game/Game/Game.jsx';
 import Footer from'./Footer/Footer';
 
 
@@ -34,6 +35,7 @@ const App = () => {
         <Route exact path='/'  component={Calculator} />
         <Route path='/calculator' component={Calculator} />
         <Route path='/notes' component={Notes} />
+        <Route path='/game' component={Game}/>
       </Switch>
     </Router>
     <Footer/>
